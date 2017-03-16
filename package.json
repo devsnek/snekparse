@@ -1,0 +1,13 @@
+{
+  "name": "snekparse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/guscaplan/snekparse.git"
+  },
+  "homepage": "https://github.com/guscaplan/snekparse",
+  "author": "Gus Caplan <me@gus.host>",
+  "license": "MIT"
+}
