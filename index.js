@@ -14,7 +14,6 @@ function snekparse(args) {
     } else if (/^--.+/.test(arg)) {
       const key = arg.match(/^--(.+)/)[1];
       const next = args[i + 1];
-      console.log(args, i);
       if (typeof next !== 'undefined' && !/^-/.test(next)) {
         argv[key] = next;
       } else if (/^(true|false)$/.test(next)) {
