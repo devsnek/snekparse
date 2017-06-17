@@ -5,9 +5,9 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/guscaplan/snekparse.git"
+    "url": "git://github.com/devsnek/snekparse.git"
   },
-  "homepage": "https://github.com/guscaplan/snekparse",
-  "author": "Gus Caplan <me@gus.host>",
+  "homepage": "https://github.com/devsnek/snekparse",
+  "author": "snek <me@gus.host>",
   "license": "MIT"
 }
