@@ -2,7 +2,7 @@
 
 function snekparse(args) {
   if (typeof args === 'string') args = args.split(' ');
-  const argv = { _raw: [] };
+  const argv = [];
   for (let i in args) {
     i = parseInt(i);
     const arg = args[i];
@@ -63,7 +63,7 @@ function snekparse(args) {
         else argv[key] = true;
       }
     } else {
-      argv._raw.push(arg);
+      argv.push(arg);
     }
   }
 
